@@ -1,0 +1,15 @@
+app:
+  name: MyApp
+  port: 3000
+  version: 1.0.0
+database:
+  credentials:
+    password: secret
+    username: admin
+  host: localhost
+  name: mydb
+  port: 5432
+features:
+  cache: true
+  logging: true
+  metrics: false

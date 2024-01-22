@@ -1,0 +1,18 @@
+[app]
+name = "MyApp"
+version = "1.0.0"
+port = 3_000
+
+[database]
+host = "localhost"
+port = 5_432
+name = "mydb"
+
+  [database.credentials]
+  username = "admin"
+  password = "secret"
+
+[features]
+logging = true
+cache = true
+metrics = false
