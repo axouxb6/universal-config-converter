@@ -13,7 +13,8 @@
         "test": "jest",
         "start:cli": "node dist/cli.js",
         "start:server": "node dist/server.js",
-        "start": "npm run start:server"
+        "start": "npm run start:server",
+        "prepublishOnly": "npm test && npm run build"
     },
     "keywords": [
         "config",
@@ -22,10 +23,26 @@
         "json",
         "toml",
         "env",
-        "dotenv"
+        "dotenv",
+        "configuration",
+        "cli",
+        "conversion"
     ],
-    "author": "",
+    "author": "Blessing Philips",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/atomicman57/universal-config-converter.git"
+    },
+    "homepage": "https://github.com/atomicman57/universal-config-converter#readme",
+    "bugs": {
+        "url": "https://github.com/atomicman57/universal-config-converter/issues"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
     "dependencies": {
         "js-yaml": "^4.1.0",
         "@iarna/toml": "^2.2.5",
