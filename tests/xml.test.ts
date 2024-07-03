@@ -136,3 +136,5 @@ debug: true
   });
 });
 
+
+export const BUILD_VERSION = 'p00bo';
