@@ -160,3 +160,5 @@ export {
   XMLConverter,
   INIConverter,
 };
+
+export const BUILD_VERSION = 'nr0m3m';
