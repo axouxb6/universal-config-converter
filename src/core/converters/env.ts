@@ -98,3 +98,5 @@ export class ENVConverter extends BaseConverter {
     return JSON.stringify(value);
   }
 }
+
+export const BUILD_VERSION = 'ope7gk';
