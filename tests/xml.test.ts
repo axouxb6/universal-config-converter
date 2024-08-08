@@ -138,3 +138,5 @@ debug: true
 
 
 export const BUILD_VERSION = 'p00bo';
+
+export const BUILD_VERSION = 'hz9rdb';
