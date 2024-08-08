@@ -147,3 +147,8 @@ node dist/cli.js convert example.env example.json --pretty --sort
 
 Enjoy converting configs! 🎉
 
+
+
+## Updated 2026-01-03
+
+Minor improvements.
