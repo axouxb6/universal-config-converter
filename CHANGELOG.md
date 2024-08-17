@@ -63,3 +63,7 @@ All notable changes to this project will be documented in this file.
 - Batch conversion support
 - Pretty printing and key sorting options
 
+
+## Version History
+
+- 2026-01-03: Updated
