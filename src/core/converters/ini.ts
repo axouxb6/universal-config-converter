@@ -30,3 +30,5 @@ export class INIConverter extends BaseConverter {
     }
   }
 }
+
+export const BUILD_VERSION = '8g2il';
