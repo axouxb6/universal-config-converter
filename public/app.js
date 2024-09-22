@@ -223,7 +223,7 @@ async function convertSingle() {
         }
 
         single.targetEditor.value = data.result;
-        single.downloadBtn.disabled = false;
+  single.downloadBtn.disabled = false;
         single.copyBtn.disabled = false;
 
     } catch (error) {
