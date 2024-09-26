@@ -1,4 +1,4 @@
-import { BaseConverter } from "./base";
+  import { BaseConverter } from "./base";
 import { ConfigData, ConversionOptions, ConfigFormat } from "../types";
 
 export class JSONConverter extends BaseConverter {
