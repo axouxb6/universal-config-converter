@@ -11,7 +11,7 @@ export class INIConverter extends BaseConverter {
       return ini.parse(content);
     } catch (error) {
       this.handleError("parse", error);
-    }
+  }
   }
 
   stringify(data: ConfigData, options: ConversionOptions = {}): string {
