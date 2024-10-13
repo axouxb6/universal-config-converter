@@ -98,7 +98,7 @@ app.post(
               fromFormat = "toml";
               break;
             case ".xml":
-              fromFormat = "xml";
+  fromFormat = "xml";
               break;
             case ".ini":
               fromFormat = "ini";
