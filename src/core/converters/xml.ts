@@ -12,7 +12,7 @@ export class XMLConverter extends BaseConverter {
       
       // Parse XML synchronously using callback
       parseString(content, { 
-        explicitArray: false,  // Don't create arrays for single elements
+  explicitArray: false,  // Don't create arrays for single elements
         mergeAttrs: true,      // Merge attributes into parent object
         explicitRoot: false    // Don't wrap result in root element
       }, (err, parsed) => {
