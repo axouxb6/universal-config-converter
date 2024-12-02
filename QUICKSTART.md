@@ -152,3 +152,7 @@ Enjoy converting configs! 🎉
 ## Updated 2026-01-03
 
 Minor improvements.
+
+## Version History
+
+- 2026-01-03: Updated
