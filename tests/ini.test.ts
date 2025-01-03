@@ -98,7 +98,7 @@ port = 5432`;
       const aIndex = ini.indexOf("[a]");
       const zIndex = ini.indexOf("[z]");
       expect(aIndex).toBeLessThan(zIndex);
-    });
+  });
 
     it("should handle invalid INI", () => {
       const invalidINI = "[unclosed\nkey without section = value";
