@@ -443,3 +443,7 @@ See the `example.json`, `example.yaml`, `example.toml`, and `example.env` files 
 
 For more information, see the [README.md](README.md).
 
+
+## Version History
+
+- 2026-01-03: Updated
