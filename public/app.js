@@ -326,7 +326,7 @@ batch.convertBtn.addEventListener('click', async () => {
 function displayBatchResults(results) {
     batch.resultsList.innerHTML = '';
 
-    results.forEach((result, index) => {
+  results.forEach((result, index) => {
         const item = document.createElement('div');
         item.className = `batch-result-item ${result.success ? 'success' : 'error'}`;
 
