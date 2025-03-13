@@ -127,7 +127,7 @@ debug: true
       const yaml = converter.convert(json, "json", "yaml");
       const xml = converter.convert(yaml, "yaml", "xml");
       const toml = converter.convert(xml, "xml", "toml");
-      const backToJson = converter.convert(toml, "toml", "json");
+  const backToJson = converter.convert(toml, "toml", "json");
 
       const parsed = JSON.parse(backToJson);
       // Data might be nested under root element depending on conversion
