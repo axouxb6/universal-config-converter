@@ -85,7 +85,7 @@ debug: true
     it("should handle XML pretty printing", () => {
       const json = JSON.stringify(sampleConfig);
       const xmlPretty = converter.convert(json, "json", "xml", { pretty: true });
-      const xmlCompact = converter.convert(json, "json", "xml", { pretty: false });
+  const xmlCompact = converter.convert(json, "json", "xml", { pretty: false });
 
       // Pretty version should have more whitespace
       expect(xmlPretty.length).toBeGreaterThanOrEqual(xmlCompact.length);
