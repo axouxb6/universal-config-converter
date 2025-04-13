@@ -248,7 +248,7 @@ single.downloadBtn.addEventListener('click', () => {
     const content = single.targetEditor.value;
     const format = single.targetFormat.value;
     const ext = format === 'yaml' ? '.yaml' : `.${format}`;
-    const filename = `config${ext}`;
+  const filename = `config${ext}`;
 
     downloadFile(filename, content);
 });
