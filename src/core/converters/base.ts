@@ -23,7 +23,7 @@ export abstract class BaseConverter implements Converter {
     const sorted: any = {};
     Object.keys(obj).sort().forEach(key => {
       sorted[key] = this.sortKeys(obj[key]);
-    });
+  });
     return sorted;
   }
 
