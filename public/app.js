@@ -4,7 +4,7 @@ const API_BASE = '/api';
 // DOM Elements
 const tabs = {
     buttons: document.querySelectorAll('.tab-button'),
-    contents: document.querySelectorAll('.tab-content')
+  contents: document.querySelectorAll('.tab-content')
 };
 
 const single = {
