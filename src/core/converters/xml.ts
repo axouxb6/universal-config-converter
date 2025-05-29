@@ -42,7 +42,7 @@ export class XMLConverter extends BaseConverter {
         }
       });
       
-      return builder.buildObject(processedData);
+  return builder.buildObject(processedData);
     } catch (error) {
       this.handleError('stringify', error);
     }
