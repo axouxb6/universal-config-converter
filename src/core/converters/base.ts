@@ -36,7 +36,7 @@ export abstract class BaseConverter implements Converter {
   }
 
   /**
-   * Common error handling with consistent error messages
+  * Common error handling with consistent error messages
    */
   protected handleError(operation: 'parse' | 'stringify', error: unknown): never {
     const message = error instanceof Error ? error.message : 'Unknown error';
