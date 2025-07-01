@@ -347,7 +347,7 @@ function displayBatchResults(results) {
         const actions = document.createElement('div');
         actions.className = 'result-actions';
 
-        if (result.success) {
+  if (result.success) {
             const downloadBtn = document.createElement('button');
             downloadBtn.className = 'btn btn-primary btn-small';
             downloadBtn.textContent = '💾 Download';

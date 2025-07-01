@@ -87,7 +87,7 @@ app.post(
 
           let fromFormat: ConfigFormat;
           switch (ext) {
-            case ".json":
+  case ".json":
               fromFormat = "json";
               break;
             case ".yaml":
