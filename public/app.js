@@ -237,7 +237,7 @@ async function convertSingle() {
 // Clear Source
 single.clearSourceBtn.addEventListener('click', () => {
     single.sourceEditor.value = '';
-    single.targetEditor.value = '';
+  single.targetEditor.value = '';
     single.downloadBtn.disabled = true;
     single.copyBtn.disabled = true;
     hideError();
