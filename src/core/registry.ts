@@ -33,7 +33,7 @@ export class ConverterRegistry {
     // Register all file extensions for this converter
     converter.extensions.forEach((ext) => {
       this.extensionMap.set(ext.toLowerCase(), converter.format);
-    });
+  });
   }
 
   /**
