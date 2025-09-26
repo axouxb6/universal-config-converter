@@ -18,7 +18,7 @@ export abstract class BaseConverter implements Converter {
   protected sortKeys(obj: any): any {
     if (obj === null || typeof obj !== 'object' || Array.isArray(obj)) {
       return obj;
-    }
+  }
     
     const sorted: any = {};
     Object.keys(obj).sort().forEach(key => {
