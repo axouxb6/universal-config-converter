@@ -1,10 +1,10 @@
 # Universal Config Converter (UCC)
 
-One tool to convert between `.yaml`, `.json`, `.toml`, `.xml`, and `.env` seamlessly.
+One tool to convert between `.yaml`, `.json`, `.toml`, `.xml`, `.ini`, and `.env` seamlessly.
 
 ## Features
 
-- 🔄 Convert between YAML, JSON, TOML, XML, and ENV formats
+- 🔄 Convert between YAML, JSON, TOML, XML, INI, and ENV formats
 - 💻 Use as CLI tool or Web UI
 - 🌐 REST API for programmatic access
 - 📦 Use as Node.js library
@@ -219,6 +219,21 @@ DEBUG=true
 </config>
 ```
 
+### INI
+```ini
+[database]
+host = localhost
+port = 5432
+name = mydb
+
+[server]
+port = 3000
+host = 0.0.0.0
+
+[settings]
+debug = true
+```
+
 ## Format-Specific Notes
 
 ### ENV Format
@@ -231,6 +246,12 @@ DEBUG=true
 - Root element is automatically handled during conversion
 - Attributes are merged into the parent object
 - Arrays are properly detected and converted
+
+### INI Format
+- Uses section headers for nested objects (e.g., `[section]`)
+- Supports key-value pairs with `=` delimiter
+- Widely used for configuration files (Git, PHP, Windows apps)
+- Nested sections use dot notation
 
 ## Configuration Options
 
@@ -489,7 +510,7 @@ docker run -p 3000:3000 universal-config-converter
 ### Common Issues
 
 **Issue: "Cannot detect format from extension"**
-- Make sure your file has a valid extension (.json, .yaml, .yml, .toml, .xml, or .env)
+- Make sure your file has a valid extension (.json, .yaml, .yml, .toml, .xml, .ini, or .env)
 
 **Issue: "Failed to parse [FORMAT]"**
 - Verify your input file has valid syntax for the specified format
@@ -522,6 +543,7 @@ MIT
 | YAML | `.yaml`, `.yml` | YAML Ain't Markup Language |
 | TOML | `.toml` | Tom's Obvious, Minimal Language |
 | XML | `.xml` | eXtensible Markup Language |
+| INI | `.ini` | INI Configuration Format |
 | ENV | `.env` | Environment Variables |
 
 ## Acknowledgments
@@ -530,6 +552,7 @@ Built with:
 - [js-yaml](https://github.com/nodeca/js-yaml) - YAML parser
 - [@iarna/toml](https://github.com/iarna/iarna-toml) - TOML parser
 - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML parser
+- [ini](https://github.com/npm/ini) - INI parser
 - [Commander.js](https://github.com/tj/commander.js) - CLI framework
 - [Express](https://expressjs.com/) - Web server
 - [TypeScript](https://www.typescriptlang.org/) - Type safety

@@ -1,7 +1,7 @@
 {
     "name": "universal-config-converter",
     "version": "1.0.0",
-    "description": "Convert between YAML, JSON, TOML, XML, and ENV config formats seamlessly with plugin architecture",
+    "description": "Convert between YAML, JSON, TOML, XML, INI, and ENV config formats seamlessly with plugin architecture",
     "main": "dist/core/index.js",
     "types": "dist/core/index.d.ts",
     "bin": {
@@ -23,6 +23,7 @@
         "json",
         "toml",
         "xml",
+        "ini",
         "env",
         "dotenv",
         "configuration",
