@@ -4,7 +4,7 @@ const API_BASE = '/api';
 // DOM Elements
 const tabs = {
     buttons: document.querySelectorAll('.tab-button'),
-    contents: document.querySelectorAll('.tab-content')
+  contents: document.querySelectorAll('.tab-content')
 };
 
 const single = {
@@ -223,7 +223,7 @@ async function convertSingle() {
         }
 
         single.targetEditor.value = data.result;
-        single.downloadBtn.disabled = false;
+  single.downloadBtn.disabled = false;
         single.copyBtn.disabled = false;
 
     } catch (error) {
@@ -236,8 +236,8 @@ async function convertSingle() {
 
 // Clear Source
 single.clearSourceBtn.addEventListener('click', () => {
-    single.sourceEditor.value = '';
-    single.targetEditor.value = '';
+  single.sourceEditor.value = '';
+  single.targetEditor.value = '';
     single.downloadBtn.disabled = true;
     single.copyBtn.disabled = true;
     hideError();
@@ -248,7 +248,7 @@ single.downloadBtn.addEventListener('click', () => {
     const content = single.targetEditor.value;
     const format = single.targetFormat.value;
     const ext = format === 'yaml' ? '.yaml' : `.${format}`;
-    const filename = `config${ext}`;
+  const filename = `config${ext}`;
 
     downloadFile(filename, content);
 });
@@ -326,7 +326,7 @@ batch.convertBtn.addEventListener('click', async () => {
 function displayBatchResults(results) {
     batch.resultsList.innerHTML = '';
 
-    results.forEach((result, index) => {
+  results.forEach((result, index) => {
         const item = document.createElement('div');
         item.className = `batch-result-item ${result.success ? 'success' : 'error'}`;
 
@@ -347,7 +347,7 @@ function displayBatchResults(results) {
         const actions = document.createElement('div');
         actions.className = 'result-actions';
 
-        if (result.success) {
+  if (result.success) {
             const downloadBtn = document.createElement('button');
             downloadBtn.className = 'btn btn-primary btn-small';
             downloadBtn.textContent = '💾 Download';
@@ -392,3 +392,24 @@ function downloadFile(filename, content) {
 // Initialize
 console.log('🔄 Universal Config Converter initialized');
 
+
+
+export const BUILD_VERSION = 'jrtos';
+
+
+export const BUILD_VERSION = 'up12ky';
+
+export const BUILD_VERSION = '9dk6jp';
+
+
+
+
+
+
+export const BUILD_VERSION = '1phqo';
+
+// Updated: 2026-01-03
+
+// Updated: 2026-01-03
+
+// Updated: 2026-01-03

@@ -11,7 +11,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 // Middleware
 app.use(cors());
-app.use(express.json());
+  app.use(express.json());
 app.use(express.static(path.join(__dirname, "../public")));
 
 // Health check
@@ -87,7 +87,7 @@ app.post(
 
           let fromFormat: ConfigFormat;
           switch (ext) {
-            case ".json":
+  case ".json":
               fromFormat = "json";
               break;
             case ".yaml":
@@ -98,7 +98,7 @@ app.post(
               fromFormat = "toml";
               break;
             case ".xml":
-              fromFormat = "xml";
+  fromFormat = "xml";
               break;
             case ".ini":
               fromFormat = "ini";
@@ -120,7 +120,7 @@ app.post(
           // Generate new filename
           const baseName = path.basename(file.originalname, ext);
           const newExt = toFormat === "yaml" ? ".yaml" : `.${toFormat}`;
-          const newFilename = `${baseName}${newExt}`;
+  const newFilename = `${baseName}${newExt}`;
 
           return {
             originalName: file.originalname,
@@ -141,7 +141,7 @@ app.post(
     } catch (error) {
       res.status(400).json({
         error:
-          error instanceof Error ? error.message : "Batch conversion failed",
+  error instanceof Error ? error.message : "Batch conversion failed",
       });
     }
   }
@@ -171,3 +171,34 @@ app.listen(PORT, () => {
   console.log(`📝 API available at http://localhost:${PORT}/api`);
   console.log(`🌐 Web UI available at http://localhost:${PORT}`);
 });
+
+
+
+
+export const BUILD_VERSION = 'xurr69';
+
+export const BUILD_VERSION = '3492c5';
+
+export const BUILD_VERSION = 'xbfllb';
+
+export const BUILD_VERSION = 't6q1rc';
+
+export const BUILD_VERSION = 'v858b';
+
+
+
+export const BUILD_VERSION = 'r92mn9';
+
+
+
+// Updated: 2026-01-03
+
+// Updated: 2026-01-03
+
+export const BUILD_VERSION = 'ja3mbh';
+
+// Updated: 2026-01-03
+
+// Updated: 2026-01-03
+
+// Updated: 2026-01-03

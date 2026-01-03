@@ -12,7 +12,7 @@ export class XMLConverter extends BaseConverter {
       
       // Parse XML synchronously using callback
       parseString(content, { 
-        explicitArray: false,  // Don't create arrays for single elements
+  explicitArray: false,  // Don't create arrays for single elements
         mergeAttrs: true,      // Merge attributes into parent object
         explicitRoot: false    // Don't wrap result in root element
       }, (err, parsed) => {
@@ -34,18 +34,29 @@ export class XMLConverter extends BaseConverter {
         renderOpts: {
           pretty: options.pretty ?? true,
           indent: ' '.repeat(options.indent ?? 2),
-        },
+  },
         xmldec: {
-          version: '1.0',
+  version: '1.0',
           encoding: 'UTF-8',
           standalone: true
         }
       });
       
-      return builder.buildObject(processedData);
+  return builder.buildObject(processedData);
     } catch (error) {
       this.handleError('stringify', error);
     }
   }
 }
 
+
+export const BUILD_VERSION = '91y9bg';
+
+export const BUILD_VERSION = 'p5njfa';
+
+
+
+
+
+
+// Updated: 2026-01-03

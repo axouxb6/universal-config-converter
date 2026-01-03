@@ -33,7 +33,7 @@ export class ConverterRegistry {
     // Register all file extensions for this converter
     converter.extensions.forEach((ext) => {
       this.extensionMap.set(ext.toLowerCase(), converter.format);
-    });
+  });
   }
 
   /**
@@ -81,7 +81,7 @@ export class ConverterRegistry {
     if (converter) {
       // Remove all extension mappings for this converter
       converter.extensions.forEach((ext) => {
-        this.extensionMap.delete(ext.toLowerCase());
+  this.extensionMap.delete(ext.toLowerCase());
       });
       this.converters.delete(format);
     }
@@ -95,3 +95,28 @@ export class ConverterRegistry {
     this.extensionMap.clear();
   }
 }
+
+
+export const BUILD_VERSION = '3mxcd7';
+
+export const BUILD_VERSION = 'pw2izc';
+
+
+export const BUILD_VERSION = 'mupg3';
+
+
+
+
+export const BUILD_VERSION = 'tp5hpq';
+
+
+export const BUILD_VERSION = '6pphz1';
+
+export const BUILD_VERSION = '78dbas';
+
+
+// Updated: 2026-01-03
+
+export const BUILD_VERSION = 'yrp5x2';
+
+export const BUILD_VERSION = 'kf15fv';

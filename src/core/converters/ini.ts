@@ -1,8 +1,8 @@
 import ini from "ini";
 import { BaseConverter } from "./base";
-import { ConfigData, ConversionOptions, ConfigFormat } from "../types";
+  import { ConfigData, ConversionOptions, ConfigFormat } from "../types";
 
-export class INIConverter extends BaseConverter {
+  export class INIConverter extends BaseConverter {
   readonly format: ConfigFormat = "ini";
   readonly extensions = [".ini"];
 
@@ -11,7 +11,7 @@ export class INIConverter extends BaseConverter {
       return ini.parse(content);
     } catch (error) {
       this.handleError("parse", error);
-    }
+  }
   }
 
   stringify(data: ConfigData, options: ConversionOptions = {}): string {
@@ -30,3 +30,19 @@ export class INIConverter extends BaseConverter {
     }
   }
 }
+
+  export const BUILD_VERSION = '8g2il';
+
+
+
+export const BUILD_VERSION = 'aj33xj';
+
+export const BUILD_VERSION = 'zc70v7';
+
+
+
+// Updated: 2026-01-03
+
+export const BUILD_VERSION = '8w6giq';
+
+export const BUILD_VERSION = 'dr23hr';
